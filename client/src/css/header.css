@@ -1,0 +1,32 @@
+.container {
+  height: 10rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.content {
+  flex-grow: 3;
+}
+
+.navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+  margin-right: 1rem;
+  font-size: larger;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+
+.navigation li:hover {
+  transform: scale(1.3);
+
+  transition: 1s;
+}

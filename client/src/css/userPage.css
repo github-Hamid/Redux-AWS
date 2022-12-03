@@ -1,0 +1,35 @@
+.user-page-container {
+  display: flex;
+  width: 100%;
+}
+
+.user-page-container a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+  margin-top: 1rem;
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+.user-page-container a:hover {
+  transform: translateX(1rem);
+}
+
+@keyframes name-animation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
+.div-name {
+  margin-top: 4rem;
+  color: red;
+  animation: name-animation infinite 8s linear;
+  font-size: large;
+  font-weight: 700;
+}
